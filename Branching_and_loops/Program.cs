@@ -1,8 +1,9 @@
-﻿// Вывод меню и выбор задачи
-
+﻿
 byte exit = 0;
 while (exit != 1)
 {
+    // Вывод меню и выбор задачи
+
     Console.WriteLine($"{"\tМЕНЮ:  \n1 - Определение чётного или нечётного числа \n2 - Подсчёт суммы карт в игре «21» \n3 - Проверка простого числа \n0 - Выход \n\n=="}");
     string input_num = Console.ReadLine();
     byte num = byte.Parse(input_num);
